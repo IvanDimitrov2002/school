@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0d795;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.navbar{
+    padding:1px;
+    background-color:#d6b352;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar .links .navlink{
+    color:white;
+    margin:10px;
+    font-size:20px;
+}
+
+.navbar .links .navlink:last-child{
+    margin-right:20px;
+}
+
+.navbar .title{
+    color:white;
+    margin-left:40px;
+}
+
+.main{
+    padding:10px;
+    height: calc(100vh - 85px);
+}
+
+.main > *{
+    padding:20px;
+}
+
+.footer{
+    text-align: center;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    font-size: 1.1rem;
+    padding:20px;
+}
+
+.card{
+    display:inline-flex;
+    flex-direction: column;
+    padding:10px;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card > *{
+    margin-top:10px;
+}
+
+.card .title{
+    margin-top:5px;
+    font-size:25px;
+}
+
+.card .body img{
+    margin-left:-10px;
+    margin-right: -10px;
+}
+
+.button{
+    background-color: #f0d795;
+    border:0;
+    border-radius: 10px;
+    padding:10px 15px;
+    outline: none;
+    font-size:17px;
+}
+
+.button:hover{
+    background-color: #dac488;
+}

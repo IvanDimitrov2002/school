@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f68db8c-ac10-4f16-99bb-45980aa350bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cUa8sp0CYnwpZnqiHQA9wpDQR5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.com.elsys.picturesort" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DataTest.getMask">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.elsys.picturesort.Main" />
+      <module name="PictureSort" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getImagePixels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PictureSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.picturesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys.picturesort" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.picturesort.DataTest" />
+      <option name="METHOD_NAME" value="getImagePixels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getMask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PictureSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.picturesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys.picturesort" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.picturesort.DataTest" />
+      <option name="METHOD_NAME" value="getMask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DataTest.getImagePixels" />
+      <item itemvalue="JUnit.DataTest.getMask" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataTest.getMask" />
+        <item itemvalue="JUnit.DataTest.getImagePixels" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f68db8c-ac10-4f16-99bb-45980aa350bf" name="Default Changelist" comment="" />
+      <created>1590585469361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590585469361</updated>
+      <workItem from="1590585472806" duration="6323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="203" width="804" height="674" key="#HTTP_Proxy" timestamp="1590585631887">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="203" width="804" height="674" key="#HTTP_Proxy/0.0.1920.1044@0.0.1920.1044" timestamp="1590585631887" />
+    <state x="555" y="184" width="804" height="674" key="#Project_Structure" timestamp="1590591163243">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="555" y="184" width="804" height="674" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1590591163243" />
+    <state x="768" y="242" width="378" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1590590529994">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="768" y="242" width="378" height="559" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1590590529994" />
+    <state x="743" y="266" width="428" height="510" key="FileChooserDialogImpl" timestamp="1590585720108">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="743" y="266" width="428" height="510" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1590585720108" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1590591797970">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1590591797970" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1590591797963">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1590591797963" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1590591797960">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1590591797960" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1590591797965">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1590591797965" />
+    <state x="443" y="100" width="1028" height="842" key="SettingsEditor" timestamp="1590585890479">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="443" y="100" width="1028" height="842" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1590585890479" />
+    <state x="660" y="416" width="587" height="222" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590591210762">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="660" y="416" width="587" height="222" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1044@0.0.1920.1044" timestamp="1590591210762" />
+    <state x="726" y="237" width="462" height="569" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590591200032">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="726" y="237" width="462" height="569" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1590591200032" />
+  </component>
+</project>

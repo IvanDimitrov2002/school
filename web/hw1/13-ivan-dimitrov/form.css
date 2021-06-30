@@ -1,0 +1,156 @@
+.login_register {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background: linear-gradient(to top, #2980b9, #6dd5fa, #fff);
+    justify-content: center;
+}
+
+.login_register .separator {
+    background-color: black;
+    margin-top: 280px;
+    width: 1px;
+    height: 300px;
+}
+
+.login_register .login, 
+.login_register .register {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    padding: 20px;
+}
+
+.login_register .login h2, 
+.login_register .register h2 {
+    font-size: 38px;
+}
+
+.login_register .login:first-child, 
+.login_register .register:first-child {
+    margin-bottom: 20px;
+}
+
+.login_register .login *:not(.textfield),
+.login_register .register *:not(.textfield) {
+    margin-top: 20px;
+}
+
+.login_register .login .textfield, 
+.login_register .register .textfield {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 200px;
+    transition: 0.2s;
+}
+
+.login_register .login .textfield:focus,
+.login_register .register .textfield:focus {
+    width: 250px;
+}
+
+.login_register .login .textfield::-webkit-input-placeholder, 
+.login_register .register .textfield::-webkit-input-placeholder {
+    opacity: 0.5;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.login_register .login .button, 
+.login_register .register .button {
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.login_register .login .button:hover, 
+.login_register .register .button:hover {
+    color: #63c9f0;
+    background-color: white;
+    border: 1.4px solid white;
+}
+
+.login_register .login {
+    animation: slideL 0.8s forwards ease-out;
+}
+
+.login_register .login *{
+    margin-left: auto;
+}
+
+.login_register .login .textfield {
+    text-align: right;
+}
+
+.login_register .login .textfield:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transform: translate(-70%);
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.login_register .register {
+    animation: slideR 0.8s forwards ease-out;
+}
+
+.login_register .register * {
+    margin-right: auto;
+}
+
+.login_register .register .textfield:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transform: translate(70%);
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+@keyframes slideL {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+   }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+   }
+}
+@keyframes slideR {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+   }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .login_register {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .login_register .separator{
+        display: none;
+    }
+
+    .login_register .login, 
+    .login_register .register {
+        margin-top: 100px;
+    }
+
+    .login_register .login *, 
+    .login_register .register * {
+        margin: 0px auto;
+        text-align: center!important;
+    }
+
+    .login_register .login .textfield:focus::-webkit-input-placeholder, 
+    .login_register .register .textfield:focus::-webkit-input-placeholder {
+        opacity: 0;
+        transform: translate(0, 100%);
+        -webkit-transition: all 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+    }
+}
+

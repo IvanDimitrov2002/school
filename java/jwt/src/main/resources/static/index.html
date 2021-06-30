@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12b class DB server</title>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+    <script>
+        let accessToken = ''
+
+        function load() {
+            $.ajax({
+                type: "GET",
+                url: "db",
+                success: function (data) {
+                    var div = $("#main")
+                    div.empty()
+
+                    for (const key in data) {
+                        var value = data[key]
+
+                        div.append(`${key} : ${value} <button class="deleteButton" name="${key}">Delete</button> <br/>`)
+                    }
+
+                    $(".deleteButton").click(function () {
+                        var key = this.name
+
+                        $.ajax({
+                            type: "DELETE",
+                            headers: {"Authorization": `Bearer ${accessToken}`},
+                            url: "db?key=" + key,
+                            success: function () {
+                                load()
+                            },
+                            error: function (err){
+                                alert("You must be logged in!")
+                            }
+                        });
+                    })
+                }
+            });
+        }
+
+        function login(username, password) {
+            $.ajax({
+                type: "POST",
+                url: "authenticate",
+                contentType: "application/json; charset=UTF-8",
+                data: JSON.stringify({ username, password }),
+                success: function (data) {
+                    accessToken = data.token
+                    alert("You are logged in successfully!")
+                },
+                error: function (err){
+                    alert("Wrong credentials!")
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $("#addButton").click(function () {
+                var key = $("#keyInput").val()
+                var value = $("#valueInput").val()
+
+                $.ajax({
+                    type: "POST",
+                    url: "db",
+                    headers: {"Authorization": `Bearer ${accessToken}`},
+                    contentType: "application/json; charset=UTF-8",
+                    data: JSON.stringify({ key: key, value: value }),
+                    success: function () {
+                        load()
+                    },
+                    error: function (err){
+                        alert("You must be logged in!")
+                    }
+                });
+            })
+
+            $("#login-button").click(function () {
+                const username = $("#username").val()
+                const password = $("#password").val()
+                login(username, password)
+            })
+
+            setInterval(load, 500)
+        })
+    </script>
+</head>
+<body>
+<div id="main"></div>
+------------------------------ <br/>
+<input id="keyInput"> : <input id="valueInput"> <button id="addButton">Add</button><br/><br/>
+<input id="username" placeholder="Username"/>
+<input id="password" type="password" placeholder="Password"/>
+<button id="login-button">Log In</button>
+</body>
+</html>

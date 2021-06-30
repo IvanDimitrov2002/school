@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8267181-9c46-47f3-9690-9f0571209ac2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b84GmyzCIrnfIILak28t9UjJV1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.com.elsys.carstore" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test.com.elsys.carstore in CarStore">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.elsys.carstore.Main" />
+      <module name="CarStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.elsys.carstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.carstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys.carstore" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.carstore.CarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.getModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.carstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys.carstore" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.carstore.CarTest" />
+      <option name="METHOD_NAME" value="getModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.getNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.carstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys.carstore" />
+      <option name="MAIN_CLASS_NAME" value="test.com.elsys.carstore.CarTest" />
+      <option name="METHOD_NAME" value="getNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.com.elsys.carstore in CarStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.elsys.carstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.elsys.carstore" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.com.elsys.carstore in CarStore" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CarTest" />
+        <item itemvalue="JUnit.CarTest.getModel" />
+        <item itemvalue="JUnit.CarTest.getNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8267181-9c46-47f3-9690-9f0571209ac2" name="Default Changelist" comment="" />
+      <created>1588000294469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588000294469</updated>
+      <workItem from="1588000302086" duration="13618000" />
+      <workItem from="1588334448160" duration="11273000" />
+      <workItem from="1588416415543" duration="48000" />
+      <workItem from="1588416619929" duration="24000" />
+      <workItem from="1590515034024" duration="45000" />
+      <workItem from="1591188956551" duration="1546000" />
+      <workItem from="1591779286499" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="281" width="528" height="481" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588347780253">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="693" y="281" width="528" height="481" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1588347780253" />
+    <state x="98" y="100" width="1724" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588345878799">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="98" y="100" width="1724" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1588345878799" />
+    <state x="768" y="227" width="378" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1588344983987">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="768" y="227" width="378" height="589" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1588344983987" />
+    <state x="690" y="299" width="528" height="441" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588338250157">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="690" y="299" width="528" height="441" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1588338250157" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1588348083864">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588348083864" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1588348083863">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588348083863" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1588348083862">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588348083862" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1588348083864">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588348083864" />
+    <state x="427" y="131" width="1007" height="793" key="SettingsEditor" timestamp="1591189019726">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="427" y="131" width="1007" height="793" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1591189019726" />
+    <state x="661" y="417" width="587" height="206" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588338176676">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="661" y="417" width="587" height="206" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1044@0.0.1920.1044" timestamp="1588338176676" />
+    <state x="727" y="237" width="460" height="569" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588344996050">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="727" y="237" width="460" height="569" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1588344996050" />
+    <state x="335" y="125" width="1243" height="793" key="new project wizard" timestamp="1591779309043">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="335" y="125" width="1243" height="793" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1591779309043" />
+  </component>
+</project>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket Machine</title>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+    <script>
+        function getServiceInfo(serviceId){
+            return $.ajax({
+                type: "GET",
+                url: "services"
+            });
+        }
+
+        function enroll(serviceId){
+            if(!serviceId){
+                alert("Invalid service")
+            } else {
+                $.ajax({
+                    type: "POST",
+                    url: "enroll",
+                    contentType: "text/plain; charset=UTF-8",
+                    data: serviceId,
+                    success: function (data) {
+                        getServiceInfo(data.serviceId).then(services => {
+                            const customerService = services.find(service => service.id === serviceId)
+                            if(!customerService){
+                                alert("Error in enrollment")
+                            } else {
+                                const enrollsDiv = $("#enrolls")
+                                enrollsDiv.append(`<div class="enroll-container">
+                                                        <div class="enroll-info">
+                                                            <div class="customer-id" data-id="${data.customerId}"><span>Номер на клиент:</span> ${data.customerId}</div>
+                                                            <div class="queue-place" data-id="${data.queueCount}"><span>Място в опашката:</span> ${data.queueCount}</div>
+                                                            <div class="service-name" data-id="${data.serviceId}"><span>Услуга:</span> ${customerService.name}</div>
+                                                        </div>
+                                                    </div>`)
+                            }
+                        })
+                    },
+                    error: function (err) {
+                        alert("Invalid service")
+                    }
+                });
+            }
+        }
+
+        function call(){
+            const deskNumber = $("#desk-number").val()
+            if(!deskNumber || deskNumber < 1){
+                alert("Invalid desk number")
+            } else {
+                const selectedServices = $(".desk-service:checked").toArray().map(service => service.value)
+                $.ajax({
+                    type: "PUT",
+                    url: `desk/${deskNumber}`,
+                    contentType: "application/json; charset=UTF-8",
+                    data: JSON.stringify(selectedServices),
+                    success: function (data) {
+                        getServiceInfo(data.serviceId).then(services => {
+                            const customerService = services.find(service => service.id === data.serviceId)
+                            if(!customerService){
+                                alert("Error in enrollment")
+                            } else {
+                                const calledCustomersDiv = $("#calledCustomers")
+                                calledCustomersDiv.append(`<div class="cc-container">
+                                                        <div class="cc-info">
+                                                            <div class="customer-id" data-id="${data.customerId}"><span>Номер на клиент:</span> ${data.customerId}</div>
+                                                            <div class="service-name" data-id="${data.serviceId}"><span>Услуга:</span> ${customerService.name}</div>
+                                                        </div>
+                                                    </div>`)
+                            }
+                        })
+                    },
+                    error: function (err) {
+                        if(err.status === 404){
+                            alert("Няма чакащи клиенти за избраните услуги")
+                        } else {
+                            alert("There was an error")
+                        }
+                    }
+                });
+            }
+        }
+
+        function board(){
+            const boardTop = $("#board-top").val()
+            if(!boardTop || boardTop < 1){
+                alert("Invalid board results number")
+            } else {
+                $.ajax({
+                    type: "GET",
+                    url: `board?top=${boardTop}`,
+                    success: function (data) {
+                        const boardResultsDiv = $("#board-results")
+                        boardResultsDiv.empty()
+
+                        data.forEach(result => {
+                            boardResultsDiv.append(`<div class="result-container">
+                                        <div class="result-info">
+                                            <div class="result-desknumber"><span>Номер на гише:</span> ${result.deskNumber}</div>
+                                            <div class="result-customerid"><span>Номер на клиент:</span> ${result.customerId}</div>
+                                        </div>
+                                    </div>`)
+
+                        })
+                    }
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: "services",
+                success: function (data) {
+                    const servicesDiv = $("#services")
+                    const deskServicesDiv = $("#desks-services")
+
+                    data.forEach(service => {
+                        servicesDiv.append(`<div class="service-container" data-id="${service.id}">
+                                        <div class="service-info">
+                                            <span class="title">${service.name}</span>
+                                            <span class="description">${service.description}</span>
+                                        </div>
+                                        <button class="enroll-button">Enroll</button>
+                                    </div>`)
+                        deskServicesDiv.append(`<label><input class="desk-service" type="checkbox" value="${service.id}"> ${service.name}</label>`)
+
+                    })
+
+                    $('.enroll-button').click(function(){
+                        let serviceId = $(this).parent().attr("data-id")
+                        enroll(serviceId)
+                    })
+                }
+            });
+
+            $("#call-button").click(function(){
+                call();
+            })
+
+            $("#check-board").click(function(){
+                board();
+            })
+        })
+    </script>
+    <style>
+        #enrolls, #calledCustomers, #board-results {
+            max-height: 440px;
+            overflow: auto;
+        }
+
+        .service-container, .enroll-container, .cc-container, .result-container {
+            display: flex;
+            flex-direction: row;
+            margin: 10px 0;
+            width: 400px;
+            justify-content: space-between;
+        }
+
+        .service-container .service-info,
+        .enroll-container .enroll-info,
+        .cc-container .cc-info,
+        .result-container .result-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-container .service-info .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .enroll-container .enroll-info > div > span,
+        .cc-container .cc-info > div > span,
+        .result-container .result-info > div > span{
+            font-weight: bold;
+        }
+
+        #desks-services {
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+<div id="main">
+    Услуги:
+    <div id="services"></div><br/><br/>
+    Информационно табло:
+    <div id="board">
+        <div id="board-results">
+
+        </div>
+        <label> Брой резултати: <input type="number" id="board-top" min="1" value="1"></label>
+        <button id="check-board">Провери таблото</button>
+    </div><br/><br/>
+    Извикване на клиенти:
+    <div id="desks">
+        <div id="desks-services"></div>
+        <label>Номер на гише: <input type="number" id="desk-number" min="1" value="1"></label>
+        <button id="call-button" type="submit">Извикай клиенти</button>
+    </div><br/><br/>
+    Нови най-скорошни чакащи клиенти:
+    <div id="enrolls"></div><br/><br/>
+    Нови най-скорошни извикани клиенти:
+    <div id="calledCustomers"></div><br/><br/>
+</div>
+</body>
+</html>

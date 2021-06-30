@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="780a1a47-2568-400e-b052-532a55ed3319" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZiQXgv3xmS9aVs04PXXf9MFb96" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.java.com.squirrels" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.squirrels.Main" />
+      <module name="Squirrels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.squirrels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BurrowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Squirrels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.squirrels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.squirrels" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.squirrels.BurrowTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BurrowTest.getFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Squirrels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.squirrels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.squirrels" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.squirrels.BurrowTest" />
+      <option name="METHOD_NAME" value="getFood" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquirrelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Squirrels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.squirrels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.squirrels" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.squirrels.SquirrelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.java.com.squirrels in Squirrels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Squirrels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.squirrels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.squirrels" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test.java.com.squirrels in Squirrels" />
+        <item itemvalue="JUnit.BurrowTest" />
+        <item itemvalue="JUnit.BurrowTest.getFood" />
+        <item itemvalue="JUnit.SquirrelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="780a1a47-2568-400e-b052-532a55ed3319" name="Default Changelist" comment="" />
+      <created>1585319475480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585319475480</updated>
+      <workItem from="1585667878789" duration="6792000" />
+      <workItem from="1585680094238" duration="4090000" />
+      <workItem from="1585725954930" duration="8071000" />
+      <workItem from="1585750913342" duration="4000" />
+      <workItem from="1585777108375" duration="26000" />
+      <workItem from="1586022348062" duration="25000" />
+      <workItem from="1586022501729" duration="31000" />
+      <workItem from="1586092608850" duration="942000" />
+      <workItem from="1586111316106" duration="665000" />
+      <workItem from="1586172258981" duration="671000" />
+      <workItem from="1587234568176" duration="83000" />
+      <workItem from="1587649055996" duration="82000" />
+      <workItem from="1587999904012" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="98" y="100" width="1724" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585749672399">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="98" y="100" width="1724" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1585749672399" />
+    <state x="768" y="242" width="378" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1585727726282">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="768" y="242" width="378" height="559" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1585727726282" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1586111986039">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1586111986039" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1586111986037">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1586111986037" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1586111986034">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1586111986034" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1586111986037">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1586111986037" />
+    <state x="463" y="204" key="SettingsEditor" timestamp="1587649136207">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="463" y="204" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1587649136207" />
+    <state x="661" y="417" width="587" height="206" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585674942108">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="661" y="417" width="587" height="206" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1044@0.0.1920.1044" timestamp="1585674942108" />
+    <state x="734" y="237" width="446" height="569" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585729430277">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="734" y="237" width="446" height="569" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1585729430277" />
+    <state x="600" y="125" width="713" height="793" key="new project wizard" timestamp="1587999959362">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="600" y="125" width="713" height="793" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1587999959362" />
+  </component>
+</project>
